@@ -15,10 +15,10 @@ As its name suggests, a workspace is a centralized place to manage all of the Az
 
 You can manage workspace assets in the Azure portal, but for data scientists, this tool contains lots of irrelevant information and links that relate to managing general Azure resources. An alternative, Azure ML-specific web interface for managing workspaces is available.
 
-1. In a new browser tab, open [https://ml.azure.com](https://ml.azure.com) and sign in using the Microsoft account you used to sign into Azure.
+1. In a new browser tab, open [https://ml.azure.com](https://ml.azure.com) and sign in using the Microsoft account you used to sign into Azure in the previous task.
 2. Select your Azure subscription and the workspace you created in the previous task.
 
-## Create a Notebook VM
+## Task 3: Create a Notebook VM
 
 You can run code to work with your workspace in many tools, including locally installed tools like Visual Studio Code or Jupyter Notebooks, or hosted environments like the Azure Data Science VM, Azure NOtebooks, or a JupyterHub server. Additionally, Azure ML includes the ability to create and manage Notebook VMs in your workspace, and that's what we'll use in this lab.
 
@@ -32,4 +32,4 @@ You can run code to work with your workspace in many tools, including locally in
 
 4. After the comand has completed, close the terminal and view the home folder in your notebook file explorer - it should contain an **azureml-primers** folder, containing the files you will use in the rest of this lab.
 
-> **Note**: If you intend to continue straight to the next lab, leave your Notebook VM running. If you're taking a brereak, you might want to close the Jupyter tabs and **Stop** your notebooks VM to avoid incurring unnecessary costs.
+> **Note**: If you intend to continue straight to the next lab, leave your Notebook VM running. If you're taking a break, you might want to close the Jupyter tabs and **Stop** your notebooks VM to avoid incurring unnecessary costs.
