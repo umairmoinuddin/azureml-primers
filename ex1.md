@@ -11,6 +11,8 @@ As its name suggests, a workspace is a centralized place to manage all of the Az
 1. Sign into the [Azure portal](https://portal.azure.com) and create a new **Azure Machine Learning service workspace** resource in a new resource group. You can use any available region.
 2. When the workspace and its associated resources have been created, view the workspace in the portal.
 
+> **More Information**: To learn more about workspaces, see the [Azure ML Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-workspace).
+
 ## Task 2: Open the Azure ML Web Interface
 
 You can manage workspace assets in the Azure portal, but for data scientists, this tool contains lots of irrelevant information and links that relate to managing general Azure resources. An alternative, Azure ML-specific web interface for managing workspaces is available.
@@ -32,4 +34,4 @@ You can run code to work with your workspace in many tools, including locally in
 
 4. After the comand has completed, close the terminal and view the home folder in your notebook file explorer - it should contain an **azureml-primers** folder, containing the files you will use in the rest of this lab.
 
-> **Note**: If you intend to continue straight to the next lab, leave your Notebook VM running. If you're taking a break, you might want to close the Jupyter tabs and **Stop** your notebooks VM to avoid incurring unnecessary costs.
+> **Note**: If you intend to continue straight to the [next exercise](ex2.md), leave your Notebook VM running. If you're taking a break, you might want to close the Jupyter tabs and **Stop** your notebooks VM to avoid incurring unnecessary costs.

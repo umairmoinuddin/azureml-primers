@@ -5,3 +5,4 @@ This repo contains some hands-on exercises to get you started with Azure Machine
 ## Exercises
 
 - [Exercise 1: Setting Up Your Environment](ex1.md)
+- [Exercise 2: Getting Started with Experiments](ex2.md)
