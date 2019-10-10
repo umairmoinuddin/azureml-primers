@@ -22,10 +22,10 @@ You can manage workspace assets in the Azure portal, but for data scientists, th
 
 ## Task 3: Create a Notebook VM
 
-You can run code to work with your workspace in many tools, including locally installed tools like Visual Studio Code or Jupyter Notebooks, or hosted environments like the Azure Data Science VM, Azure NOtebooks, or a JupyterHub server. Additionally, Azure ML includes the ability to create and manage Notebook VMs in your workspace, and that's what we'll use in this lab.
+You can run code to work with your workspace in many tools, including locally installed tools like Visual Studio Code or Jupyter Notebooks, or hosted environments like the Azure Data Science VM, Azure Notebooks, or a JupyterHub server. Additionally, Azure ML includes the ability to create and manage Notebook VMs in your workspace, and that's what we'll use in this lab.
 
 1. In your workspace, create a new **Notebook VM** using the *STANDARD_DS3_V2* VM type template.
-2. After the Notebook VM has been created, verify that it is running, and then click the **Jupyter** or **JupyterLab** link, depending on the notebook environment you want to use in this lab (you can experiment with both, they have acess to the same file system in the Notebook VM).
+2. After the Notebook VM has been created, verify that it is running, and then click the **Jupyter** or **JupyterLab** link, depending on the notebook environment you want to use in this lab (you can experiment with both, they have access to the same file system in the Notebook VM).
 3. In the notebook environment, open a new **Terminal**, and in the **Users** folder, run the following command:
 
     ```bash
@@ -33,5 +33,7 @@ You can run code to work with your workspace in many tools, including locally in
     ```
 
 4. After the comand has completed, close the terminal and view the home folder in your notebook file explorer - it should contain an **azureml-primers** folder, containing the files you will use in the rest of this lab.
+5. In the **/azureml-primers/notebooks** folder, open the **01 - Setting up Your Environment.ipynb** notebook.
+6. Read the notes in the notebook, running each code cell in turn.
 
-> **Note**: If you intend to continue straight to the [next exercise](ex2.md), leave your Notebook VM running. If you're taking a break, you might want to close the Jupyter tabs and **Stop** your notebooks VM to avoid incurring unnecessary costs.
+> **Note**: If you intend to continue straight to the [next exercise](ex2.md), leave your Notebook VM running. If you're taking a break, you might want to close the Jupyter tabs and **Stop** your Notebook VM to avoid incurring unnecessary costs.
