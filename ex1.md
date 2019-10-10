@@ -33,7 +33,10 @@ You can run code to work with your workspace in many tools, including locally in
     ```
 
 4. After the comand has completed, close the terminal and view the home folder in your notebook file explorer - it should contain an **azureml-primers** folder, containing the files you will use in the rest of this lab.
-5. In the **/azureml-primers/notebooks** folder, open the **01 - Setting up Your Environment.ipynb** notebook.
-6. Read the notes in the notebook, running each code cell in turn.
+
+## Task 4: Connect to Your Workspace using the Azure ML SDK
+
+1. In the **/azureml-primers/notebooks** folder, open the **01 - Setting up Your Environment.ipynb** notebook.
+2. Read the notes in the notebook, running each code cell in turn.
 
 > **Note**: If you intend to continue straight to the [next exercise](ex2.md), leave your Notebook VM running. If you're taking a break, you might want to close the Jupyter tabs and **Stop** your Notebook VM to avoid incurring unnecessary costs.
