@@ -12,6 +12,8 @@ These exercises are designed to help data scientists learn how to use Azure ML t
 
 ## Exercises
 
+This lab is designed to build incremental knowledge and skills by progressing through a series of exercises, each adding new Azure ML capabilities to a machine learning senario. The scenario is deliberately simple, and focuses on building a binary classification model using scikit-learn. This makes it easier to focus on the Azure ML concepts and techniques being explored without the distraction of complex data modeling. Despite the simplicity, the principles demonstrated in these exercises apply to more complex scenarios, including deep learning models based on frameworks like *TensorFlow*, *Keras*, and *PyTorch*.
+
 - [Exercise 1: Setting Up Your Environment](ex1.md)
 - [Exercise 2: Getting Started with Experiments](ex2.md)
 - [Exercise 3: From Data to Model](ex3.md)
