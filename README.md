@@ -1,6 +1,14 @@
-# AzureML Primers
+# Azure Machine Learning Primers
 
-This repo contains some hands-on exercises to get you started with Azure Machine Learning. You should complete the exercises in order.
+This repo contains some hands-on exercises to get you started with Azure Machine Learning (*Azure ML*). You should complete the exercises in order.
+
+## Assumed Knowledge
+
+These exercises are designed to help data scientists learn how to use Azure ML to run data science workloads in the cloud. They are ***not*** designed to teach Python or machine learning concepts. If you are a data scientist or other software professional, and you are familiar with the following, then these exercises are for you:
+
+- Python environments and package management (including *conda* and *pip*)
+- Common Python libraries for data analysis (including *numpy*, *pandas*, and *matplotlib*)
+- Machine Learning on Python (including a basic conceptual understanding of machine learning principles, and common ML frameworks - particularly *scikit-learn*)
 
 ## Exercises
 
