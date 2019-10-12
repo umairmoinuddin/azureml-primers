@@ -6,7 +6,7 @@ Before you start this exercise, ensure that you have completed the [previous exe
 
 ## Task 1: Create an Azure ML Pipeline for Batch Inferencing
 
-Rather than *real-time inferencing* via a web service, many organizations rely on *batch inferencing*; in which large volumes of data is processed as a batch to get predictions from a model. With Azure ML, you can use a pipeline to accomplish this.
+Rather than *real-time inferencing* via a web service, many organizations rely on *batch inferencing*; in which large volumes of data are processed as a batch to get predictions from a model. With Azure ML, you can use a pipeline to accomplish this.
 
 1. Start your Notebook VM and connect to **Jupyter** or **JupyterLab**.
 2. In the **/azureml-primers/notebooks** folder, open the **08 - Batch Inferencing with Pipelines.ipynb** notebook.
