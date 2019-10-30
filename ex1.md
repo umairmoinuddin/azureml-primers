@@ -16,18 +16,20 @@ As its name suggests, a workspace is a centralized place to manage all of the Az
 
 > **More Information**: To learn more about workspaces, see the [Azure ML Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-workspace).
 
-## Task 2: Open the Azure ML Web Interface
+## Task 2: Explore the Azure ML Studio Interface
 
 You can manage workspace assets in the Azure portal, but for data scientists, this tool contains lots of irrelevant information and links that relate to managing general Azure resources. An alternative, Azure ML-specific web interface for managing workspaces is available.
 
-1. In a new browser tab, open [https://ml.azure.com](https://ml.azure.com) and sign in using the Microsoft account you used to sign into Azure in the previous task.
-2. Select your Azure subscription and the workspace you created in the previous task.
+> **Note**: The web-based interface for Azure ML is named *Studio*, which you may find confusing as there is also a free *Azure Machine Learning Studio* product for creating machine learning models using a visual designer. A more scalable version of this visual designer is included in the new Studio interface.
+
+1. In the portal blade for your workspace, click the link to launch Studio; or alternatively, in a new browser tab, open [https://ml.azure.com](https://ml.azure.com),  sign in using the Microsoft account you used to sign into Azure in the previous task, and select your Azure subscription and the workspace you created in the previous task.
+2. View the Studio interface for your workspace - you can manage all of the assets in your workspace from here.
 
 ## Task 3: Create a Notebook VM
 
 You can run code to work with your workspace in many tools, including locally installed tools like Visual Studio Code or Jupyter Notebooks, or hosted environments like the Azure Data Science VM, Azure Notebooks, or a JupyterHub server. Additionally, Azure ML includes the ability to create and manage Notebook VMs in your workspace, and that's what we'll use in this lab.
 
-1. In your workspace, create a new **Notebook VM** using the *STANDARD_DS3_V2* VM type template.
+1. In your workspace, create a new **Notebook VM** using the default VM type template.
 2. After the Notebook VM has been created, verify that it is running, and then click the **Jupyter** or **JupyterLab** link, depending on the notebook environment you want to use in this lab (you can experiment with both, they have access to the same file system in the Notebook VM).
 3. In the notebook environment, open a new **Terminal**, and in the **Users** folder, run the following command:
 
