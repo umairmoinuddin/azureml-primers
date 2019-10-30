@@ -10,7 +10,7 @@ As its name suggests, a workspace is a centralized place to manage all of the Az
 
 1. Sign into the [Azure portal](https://portal.azure.com) and create a new **Machine Learning** resource, specifying a unique workspace name and creating a new resource group. You can create the resource in any region that supports the *NC-series* of virtual machines, which you can determine in the [Azure Products Available by Region page](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=virtual-machines)
 
-    **Note**: Machine Learning workspaces aren't restricted to these regions, but you'll be creating a GPU-enabled *NC-series* virtual machine in a later challenge.
+    **Note**: Machine Learning workspaces aren't restricted to these regions, but if you plan to use GPU-enabled compute for uour machine learning workloads, you need to create the workspace in a region where GPU VMs are supported.
 
 2. When the workspace and its associated resources have been created, view the workspace in the portal.
 
