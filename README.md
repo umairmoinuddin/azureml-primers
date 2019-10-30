@@ -21,3 +21,4 @@ This lab is designed to build incremental knowledge and skills by progressing th
 - [Exercise 5: Optimizing Model Training](ex5.md)
 - [Exercise 6: Deploying a Model into Production](ex6.md)
 - [Exercise 7: Automating ML Workflows with Pipelines](ex7.md)
+- [Exercise 8: Batch Inferencing with Pipelines](ex8.md)
