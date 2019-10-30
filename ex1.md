@@ -8,7 +8,10 @@ Azure Machine Learning is a Microsoft Azure-based service for running data scien
 
 As its name suggests, a workspace is a centralized place to manage all of the Azure ML assets you need to work on a machine learning project.
 
-1. Sign into the [Azure portal](https://portal.azure.com) and create a new **Azure Machine Learning service workspace** resource in a new resource group. You can use any available region.
+1. Sign into the [Azure portal](https://portal.azure.com) and create a new **Machine Learning** resource, specifying a unique workspace name and creating a new resource group. You can create the resource in any region that supports the *NC-series* of virtual machines, which you can determine in the [Azure Products Available by Region page](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=virtual-machines)
+
+    **Note**: Machine Learning workspaces aren't restricted to these regions, but you'll be creating a GPU-enabled *NC-series* virtual machine in a later challenge.
+
 2. When the workspace and its associated resources have been created, view the workspace in the portal.
 
 > **More Information**: To learn more about workspaces, see the [Azure ML Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-workspace).
