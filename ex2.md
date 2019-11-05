@@ -11,7 +11,7 @@ The Visual Interface provides a drag & drop environment in which you can define 
 1. In the Azure Machine Learning *Studio* web interface, view the **Designer** page and create a new pipeline.
 2. Change the default pipeline name (at the top) (**Pipeline-Created-on-*date***) to **Visual Diabetes Training**.
 3. Use the **&#9881;** icon to view the settings for the pipeline, and note that you need to specify a compute target on which to run the pipeline. Click **Select compute target** and select the **cpu-cluster** compute target you created in the previous exercise.
-4. On the left side of the designer, expand the **Datasets** section, and drag the **diabetes dataset** datset you created in the previous exercise onto the canvas.
+4. On the left side of the designer, expand the **Datasets** section, and drag the **diabetes dataset** dataset you created in the previous exercise onto the canvas.
 5. Select the **diabetes dataset** module on the canvas, and view its settings. Then on the **outputs** tab, click the **Visualize** icon (which looks liks a bar chart).
 6. Review the schema of the data, noting that you can see the distributions of the various columns as histograms. Then close the visualization.
 7. In the pane on the left, expand the **Data Transformation** section, which contains a wide range of modules you can use to transform data and pre-process it before model training. Drag a **Normalize Data** module to the canvas, below the **diabetes dataset** module. Then connect the output from the **diabetes dataset** module to the input of the **Normalize Data** module.
