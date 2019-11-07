@@ -1,12 +1,12 @@
-# Exercise 2: Codeless ML with the Visual Interface
+# Exercise 2: No-code ML with the Visual Designer
 
 ## Before You Start
 
 Before you start this exercise, ensure that you have completed the [previous execise](ex1.md).
 
-## Task 1: Train a Model with the Visual Interface
+## Task 1: Train a Model with the Visual Designer
 
-The Visual Interface provides a drag & drop environment in which you can define a workflow, or *pipeline* of data ingestion, transformation, and model training modules to create a machine learning model. You can then publish this pipeline as a web service that client applications can use for *inferencing* (generating predictions from new data).
+The *Designer* interface provides a drag & drop environment in which you can define a workflow, or *pipeline* of data ingestion, transformation, and model training modules to create a machine learning model. You can then publish this pipeline as a web service that client applications can use for *inferencing* (generating predictions from new data).
 
 1. In the Azure Machine Learning *Studio* web interface, view the **Designer** page and create a new pipeline.
 2. Change the default pipeline name (at the top) (**Pipeline-Created-on-*date***) to **Visual Diabetes Training**.
