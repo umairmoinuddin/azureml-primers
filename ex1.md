@@ -36,7 +36,7 @@ You can run code to work with your workspace in many tools, including locally in
 You'll also need cloud-based compute on which you can run experiments and training scripts at scale.
 
 1. In the *Studio* web interface for your workspace, view the **Compute** page. This is where you'll manage all the compute targets for your data science activities.
-2. On the **Notebook VMs** tab, add a new **Notebook VM**, giving it a unique name and using the default VM type template.
+2. On the **Notebook VMs** tab (or the **Compute Instances** tab depending on [preview availability in your region](https://docs.microsoft.com/azure/machine-learning/service/concept-compute-instance)), add a new **Notebook VM** (or **Compute Instance**), giving it a unique name and using the default VM type template.
 3. While the notebook VM is being created, switch to the **Training Clusters** tab, and add a new training cluster with the following settings:
     * **Compute name**: cpu-cluster
     * **Virtual Machine size**: Standard_DS12_v2
